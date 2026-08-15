@@ -1,0 +1,1 @@
+﻿import type{Metadata}from"next";import"./globals.css";export const metadata:Metadata={title:"The 2026 Workplace | Interactive Listening Course",description:"An interactive Business English listening course about the workplace in 2026."};export default function RootLayout({children}:Readonly<{children:React.ReactNode}>){return <html lang="zh-Hant"><body>{children}</body></html>}
