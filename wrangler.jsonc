@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "the-2026-workplace",
+  "main": "vinext/server/app-router-entry",
+  "compatibility_date": "2026-05-15",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "workers_dev": true,
+  "observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "the-2026-workplace",
+      "migrations_dir": "drizzle",
+      "database_id": "75497f07-14bb-481a-a17e-7c6bea656a8f"
+    }
+  ]
+}
