@@ -1,0 +1,1 @@
+Historical one-time QR insertion script for the Cloudflare version. Its output is already part of the source. Do not rerun on the current source; it changes course HTML and appends CSS. Local databases are deliberately excluded.
